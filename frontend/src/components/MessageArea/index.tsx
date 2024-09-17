@@ -31,7 +31,7 @@ const MessageArea: React.FC<MessageAreaProps> = ({ user }) => {
     }
   }
 
-  const handleEmojiClick = (event: any, emojiObject: any) => {
+  const handleEmojiClick = (_event: any, emojiObject: any) => {
     setInputMessage(inputMessage + emojiObject.emoji)
     setShowEmojiPicker(false)
   }

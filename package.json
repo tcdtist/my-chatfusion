@@ -4,10 +4,10 @@
   "description": "Real-time chat application built with React, Node.js, and Socket.IO.",
   "main": "index.js",
   "scripts": {
-    "start": "concurrently \"npm run start:frontend\" \"npm run start:backend\"",
-    "start:frontend": "cd frontend && npm run dev",
-    "start:backend": "cd backend && npm run dev",
-    "install": "concurrently \"cd frontend && npm install\" \"cd backend && npm install\""
+    "start": "concurrently \"yarn start:frontend\" \"yarn start:backend\"",
+    "start:frontend": "cd frontend && yarn dev",
+    "start:backend": "cd backend && yarn dev",
+    "install": "concurrently \"cd frontend && yarn\" \"cd backend && yarn\""
   },
   "keywords": [],
   "author": "",
